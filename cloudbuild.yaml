@@ -38,7 +38,7 @@ steps:
   args: 
   - '-c'
   - | 
-      if [ -d "environment/$BRANCH_NAME/" ]; then
+      if [ -d "environment/$BRANCH_NAME/" ]; then 
         cd environment/$BRANCH_NAME
         terraform plan
       else
