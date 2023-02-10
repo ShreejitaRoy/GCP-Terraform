@@ -20,7 +20,7 @@ resource "google_sql_database" "database" {
 
 
 resource "google_sql_database_instance" "instance" {
-  name             = "my-database-instance"
+  name             = "my-database-instance-12"
   region           = "us-west1"
   database_version = "POSTGRES_14"
   settings {
